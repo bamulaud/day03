@@ -6,11 +6,10 @@
 /*   By: bamulaud <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/09 12:37:29 by bamulaud          #+#    #+#             */
-/*   Updated: 2020/07/09 16:00:07 by bamulaud         ###   ########.fr       */
+/*   Updated: 2020/07/10 15:04:35 by bamulaud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.>
 void ft_putchar(char c)
 {
 	write(1, &c, 1);
